@@ -1,0 +1,283 @@
+body{
+
+    margin: 0;
+}
+
+
+
+.container1{
+    height:50vh;
+    width: 100vw;
+    background-image: conic-gradient(#ACE3F3 180deg, #ACF3AE 180deg);
+    position: relative;
+    overflow: hidden;
+}
+.container2{
+    height:50vh;
+    width: 100vw;
+    background-color: #D3D3D1;
+}
+
+.container1 > #img1 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 10.5%;
+    min-height: 20%;
+    min-width: 20%;
+    max-width: 40%;
+    max-height: 90%;
+    transform: translate(-50%, -50%);
+  } 
+
+  .container1 > #img2 {
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 58%;
+    min-height: 10%;
+    min-width: 20%;
+    max-width: 35%;
+    max-height: 90%;
+  } 
+
+  /* .container1 > p {
+    display: block;
+    position: absolute;
+    top: 31%;
+    left: 58%;
+    font-size: 158%;
+  }  */
+  .container1 > button {
+    display: block;
+    position: absolute;
+    top: 83%;
+    left: 68%;
+    background-color: #ACF3AE;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #2730e3;
+  } 
+  .container2 > button {
+    display: block;
+    position: absolute;
+    top: 91%;
+    left: 41%;
+    background-color: #ACF3AE;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #2730e3;
+  } 
+
+
+.container1 > h1{ 
+    left: 22%;
+    position:absolute; 
+	top:5%; 
+	max-width:50%;
+    max-width 10%;
+	font-size : 300%;
+    overflow: hidden;
+}
+.container1 > h2{ 
+    left: 23%;
+    position:absolute; 
+	top:30%; 
+    max-width 10%;
+	font-size : 70%;
+    overflow: hidden;
+}
+.container1 > h3{ 
+    left: 23%;
+    position:absolute; 
+	top:50%; 
+    max-width: 20%;
+	font-size : 130%;
+    overflow: hidden;
+}
+
+
+.container2 > #educ, #exp, #skills{ 
+    left: 0%;
+    position:absolute; 
+	top:50%; 
+    max-width: 50%;
+	font-size : 180%;
+    overflow: hidden;
+}
+
+#exp{ 
+    left: 35.5%;
+}
+
+.container2 > #skills{ 
+    left: 70%;
+}
+
+.container2 > #img3{ 
+    left: 0%;
+    position:absolute; 
+	top:62%; 
+    max-width: 5%;
+    overflow: hidden;
+}
+
+.container2 > #img4{ 
+    left: -2.1%;
+    position:absolute; 
+	top:75%; 
+    max-width: 9%;
+    overflow: hidden;
+}
+
+.container2 > #img5{ 
+    left: 0%;
+    position:absolute; 
+	top:88%; 
+    max-width: 5%;
+    overflow: hidden;
+}
+.container2 > #img6{ 
+    left: 38%;
+    position:absolute; 
+	top:62%; 
+    max-width: 12%;
+    overflow: hidden;
+}
+
+.container2 > #school1, #attain1, #year1{ 
+    left: 7%;
+    position:absolute; 
+	top:61.5%; 
+    overflow: hidden;
+}
+
+#attain1{
+    top: 65%;
+}
+
+#year1{
+    top:68%;
+}
+
+.container2 > #school2, #attain2, #year2{ 
+    left: 7%;
+    position:absolute; 
+	top:73.5%; 
+    overflow: hidden;
+}
+#attain2{
+    top: 76.5%;
+}
+
+#year2{
+    top:79.5%;
+}
+.container2 > #school3, #attain3, #year3{ 
+    left: 7%;
+    position:absolute; 
+	top:86.5%; 
+    overflow: hidden;
+}
+#attain3{
+    top: 89.5%;
+}
+
+#year3{
+    top:92.5%;
+}
+
+.container2 > #comp1, #work1, #wyear1{ 
+    left: 38%;
+    position:absolute; 
+	top:79%; 
+    max-width: 21%;
+    overflow: hidden;
+}
+
+#work1{
+    top: 82.5%;
+}
+
+#wyear1{
+    top:85.5%;
+}
+
+.container2 > #comp2, #work2, #wyear2{ 
+    left: 50%;
+    position:absolute; 
+	top:79%; 
+    max-width: 21%;
+    overflow: hidden;
+}
+
+#work2{
+    top: 82.5%;
+}
+
+#wyear2{
+    top:85.5%;
+}
+
+.container2 > .ul, #img7{ 
+    left: 74%;
+    position:absolute; 
+	top:75%; 
+    max-width: 21%;
+    overflow: hidden;
+}
+
+.container2 > #img7{ 
+    left: 74%;
+    position:absolute; 
+	top:57%; 
+    max-width: 8%;
+    overflow: hidden;
+}
+
+
+
+
+/* conic-gradient(darkturquoise 0deg 90 deg, khaki 90 deg 270 deg, darkturquoise 270deg 360deg) */
+
+
+
+
+
+
+
+
+/* .div1{ border-style: dotted;
+width: 50vw;
+ height: 50vh;
+ margin: 0;
+ display: inline-block; 
+ padding: 0;
+ background-color: black;
+ float: left;
+
+}
+.div2{ border-style: dotted;
+    width: 49vw;
+    height: 50vh;
+    display: inline-block; 
+    margin : 0;    
+    padding: 0;
+    background-color: red;
+    float: right;
+   }
+ */
